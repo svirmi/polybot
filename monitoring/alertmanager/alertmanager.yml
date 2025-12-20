@@ -5,8 +5,8 @@ global:
   # How often to group alerts before sending
   resolve_timeout: 5m
 
-  # Slack configuration (set via environment variables)
-  slack_api_url: '${SLACK_WEBHOOK_URL}'
+  # Slack configuration
+  slack_api_url: 'https://hooks.slack.com/services/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'
 
 # Alert routing tree
 route:
